@@ -36,5 +36,10 @@ export default withBundleAnalyzer({
   },
 
   // See https://react-tweet.vercel.app/next#troubleshooting
-  transpilePackages: ['react-tweet']
+  transpilePackages: ['react-tweet'],
+
+  // Explicitly define environment variables
+  env: {
+    NOTION_PAGE_ID: process.env.NOTION_PAGE_ID
+  }
 })
