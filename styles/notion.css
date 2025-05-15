@@ -103,6 +103,19 @@
   filter: none;
 }
 
+.notion-collection-card:hover {
+  -webkit-transition:
+    transform 0.4s,
+    box-shadow 0.4s !important;
+  transition:
+    transform 0.4s,
+    box-shadow 0.4s !important;
+  transform: translateY(-8px) !important;
+  -webkit-box-shadow: 0 10px 20px 0 rgb(0 0 0 / 20%) !important;
+  box-shadow: 0 10px 20px 0 rgb(0 0 0 / 20%) !important;
+  background: white !important;
+}
+
 .notion-collection-card:hover .notion-collection-card-cover {
   filter: brightness(105%);
 }
