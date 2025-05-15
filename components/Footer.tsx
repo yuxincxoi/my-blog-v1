@@ -1,10 +1,10 @@
 import { FaEnvelopeOpenText } from '@react-icons/all-files/fa/FaEnvelopeOpenText'
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
-import { FaMastodon } from '@react-icons/all-files/fa/FaMastodon'
-import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
-import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
-import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
+// import { FaMastodon } from '@react-icons/all-files/fa/FaMastodon'
+// import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
+// import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
+// import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
 import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
 import * as React from 'react'
@@ -54,7 +54,7 @@ export function FooterImpl() {
       </div>
 
       <div className={styles.social}>
-        {config.twitter && (
+        {/* {config.twitter && (
           <a
             className={styles.twitter}
             href={`https://twitter.com/${config.twitter}`}
@@ -64,9 +64,9 @@ export function FooterImpl() {
           >
             <FaTwitter />
           </a>
-        )}
+        )} */}
 
-        {config.mastodon && (
+        {/* {config.mastodon && (
           <a
             className={styles.mastodon}
             href={config.mastodon}
@@ -75,9 +75,9 @@ export function FooterImpl() {
           >
             <FaMastodon />
           </a>
-        )}
+        )} */}
 
-        {config.zhihu && (
+        {/* {config.zhihu && (
           <a
             className={styles.zhihu}
             href={`https://zhihu.com/people/${config.zhihu}`}
@@ -87,7 +87,7 @@ export function FooterImpl() {
           >
             <FaZhihu />
           </a>
-        )}
+        )} */}
 
         {config.github && (
           <a
@@ -125,7 +125,7 @@ export function FooterImpl() {
           </a>
         )}
 
-        {config.youtube && (
+        {/* {config.youtube && (
           <a
             className={styles.youtube}
             href={`https://www.youtube.com/${config.youtube}`}
@@ -135,7 +135,7 @@ export function FooterImpl() {
           >
             <FaYoutube />
           </a>
-        )}
+        )} */}
       </div>
     </footer>
   )

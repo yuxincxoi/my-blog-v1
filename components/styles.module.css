@@ -61,10 +61,10 @@
   padding: 0.5em;
 }
 
-.settings,
+/* .settings,
 .social {
   user-select: none;
-}
+} */
 
 .settings a,
 .social a {
