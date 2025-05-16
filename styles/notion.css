@@ -84,6 +84,14 @@
   box-shadow: none;
 }
 
+.dark-mode .notion-collection-card:hover {
+  background-color: #2f3437 !important;
+}
+
+.dark-mode .notion-collection-card {
+  border: 1px solid #555555 !important;
+}
+
 .notion-collection-card-cover img {
   border-radius: 16px 16px 0px 0px;
 }
