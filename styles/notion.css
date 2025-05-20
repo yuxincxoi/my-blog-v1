@@ -421,3 +421,41 @@
 .notion-equation.notion-equation-block {
   align-items: center;
 }
+
+/* 목차 전체 위치 및 외형 */
+.notion-table-of-contents {
+  width: 85% !important;
+  position: sticky;
+  top: 100px;
+  padding-left: 1rem;
+  font-size: 14px;
+  line-height: 1.6;
+  border-left: 2px solid #eee;
+  margin-left: 2rem;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+/* 목차 항목 */
+.notion-table-of-contents .notion-table-of-contents-item {
+  margin: 4px 0;
+  color: #8e8e8e;
+}
+
+/* 현재 활성화된 목차 항목 */
+.notion-table-of-contents .notion-table-of-contents-active-item {
+  color: black !important;
+}
+
+.notion-table-of-contents-item:hover {
+  background: none !important;
+}
+
+/* .notion-table-of-contents .notion-table-of-contents-item .text {
+  opacity: 0.5;
+  font-size: 0.9rem;
+  transition: 250ms opacity;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} */
