@@ -427,16 +427,15 @@
   display: none !important;
 }
 
-/* 목차 전체 위치 및 외형 */
+/* 목차 전체 */
 .notion-table-of-contents {
-  width: 85% !important;
+  width: 100% !important;
   position: sticky;
   top: 100px;
-  padding-left: 1rem;
+  padding-left: 15px;
   font-size: 14px;
   line-height: 1.6;
   border-left: 2px solid #eee;
-  margin-left: 2rem;
   max-height: 80vh;
   overflow-y: auto;
 }
