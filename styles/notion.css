@@ -422,6 +422,11 @@
   align-items: center;
 }
 
+/* 목차 제목 */
+.notion-aside-table-of-contents-header {
+  display: none !important;
+}
+
 /* 목차 전체 위치 및 외형 */
 .notion-table-of-contents {
   width: 85% !important;
