@@ -428,6 +428,10 @@
   align-items: center;
 }
 
+.notion-aside {
+  top: 200px !important;
+}
+
 /* 목차 제목 */
 .notion-aside-table-of-contents-header {
   display: none !important;
