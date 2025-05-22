@@ -394,6 +394,10 @@
   backdrop-filter: saturate(180%) blur(20px);
 }
 
+.breadcrumbs .active {
+  display: none !important;
+}
+
 /* Workaround for Firefox not supporting backdrop-filter yet */
 @-moz-document url-prefix() {
   .dark-mode .notion-header {
