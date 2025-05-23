@@ -12,6 +12,13 @@
   --notion-header-height: 54px;
 }
 
+.notion-app {
+  background-color: #fafafa !important;
+}
+.dark-mode .notion-app {
+  background-color: #212121 !important;
+}
+
 .notion-frame {
   padding: 0;
 }
