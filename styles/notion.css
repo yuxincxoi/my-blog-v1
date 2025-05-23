@@ -447,6 +447,13 @@
   top: 200px !important;
 }
 
+.notion-aside-table-of-contents {
+  background: #fafafa;
+}
+.dark-mode .notion-aside-table-of-contents {
+  background: #212121;
+}
+
 /* 목차 제목 */
 .notion-aside-table-of-contents-header {
   display: none !important;
@@ -476,6 +483,9 @@
 /* 현재 활성화된 목차 항목 */
 .notion-table-of-contents .notion-table-of-contents-active-item {
   color: black !important;
+}
+.dark-mode .notion-table-of-contents .notion-table-of-contents-active-item {
+  color: white !important;
 }
 
 .notion-table-of-contents-item:hover {
