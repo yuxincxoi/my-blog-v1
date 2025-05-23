@@ -65,6 +65,7 @@
   grid-gap: 4vmin;
   gap: 4vmin;
   border-top: none !important;
+  padding-top: 10px !important;
 }
 
 .notion-gallery-grid .notion-page-icon-inline {
