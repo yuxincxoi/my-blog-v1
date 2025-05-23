@@ -203,6 +203,10 @@
   margin-bottom: 5px;
 }
 
+.index-page .notion-title {
+  display: none;
+}
+
 .notion-collection-row {
   padding-bottom: 100px;
   border-bottom: none !important;
