@@ -23,9 +23,34 @@
   padding: 0;
 }
 
+@media (min-width: 1300px) and (min-height: 300px) {
+  .notion-page-content-has-aside {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .notion-page-content-has-aside .notion-aside {
+    display: flex;
+    flex: 0 0 250px !important;
+  }
+
+  .notion-page-content-has-aside .notion-page-content-inner {
+    flex: 1 1 !important;
+    max-width: none;
+  }
+}
+
 .notion-page {
   padding-bottom: calc(max(5vh, 32px)) !important;
   line-height: 1.65;
+  width: 85%;
+  margin-right: 5%;
+  margin-left: auto;
+}
+.notion-page.index-page {
+  width: 70%;
+  margin: auto;
 }
 
 .index-page {
@@ -454,6 +479,7 @@
 
 .notion-aside-table-of-contents {
   background: #fafafa;
+  width: 350px !important;
 }
 .dark-mode .notion-aside-table-of-contents {
   background: #212121;
@@ -466,9 +492,10 @@
 
 /* 목차 전체 */
 .notion-table-of-contents {
-  width: 100% !important;
+  width: 80% !important;
   position: sticky;
   top: 100px;
+  margin-left: 70px;
   padding-left: 15px;
   font-size: 14px;
   line-height: 1.6;
