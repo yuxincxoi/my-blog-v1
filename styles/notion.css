@@ -13,6 +13,9 @@
 }
 
 .notion-app {
+  background-color: white !important;
+}
+.notion-app.notion-block-1f3bd06f056180959ae1e3388b9f1192 {
   background-color: #fafafa !important;
 }
 .dark-mode .notion-app {
