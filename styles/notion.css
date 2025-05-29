@@ -426,16 +426,16 @@
   border-radius: 50%;
 }
 
-.notion-header {
+.notion-block-1f3bd06f056180959ae1e3388b9f1192 .notion-header {
   background: #fafafa66;
+}
+.notion-header {
+  background: #ffffff66;
   backdrop-filter: saturate(180%) blur(16px);
 }
-
 .dark-mode .notion-header {
   background: #21212166;
-  backdrop-filter: saturate(180%) blur(20px);
 }
-
 .breadcrumbs .active {
   display: none !important;
 }
