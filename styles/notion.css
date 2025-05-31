@@ -440,6 +440,19 @@
   display: none !important;
 }
 
+@font-face {
+  font-family: 'Wild';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/naverfont_11@1.0/Wild.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.breadcrumbs .title {
+  font-family: 'Wild', sans-serif !important;
+  font-size: x-large !important;
+}
+
 /* Workaround for Firefox not supporting backdrop-filter yet */
 @-moz-document url-prefix() {
   .dark-mode .notion-header {
