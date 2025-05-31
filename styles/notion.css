@@ -44,6 +44,11 @@
   }
 }
 
+.notion-page-content-inner > figure:first-child {
+  display: none !important;
+  margin: 0 !important;
+}
+
 .notion-page {
   padding-bottom: calc(max(5vh, 32px)) !important;
   line-height: 1.65;
