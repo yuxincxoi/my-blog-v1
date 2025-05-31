@@ -242,8 +242,9 @@
 }
 
 .notion-collection-row {
-  padding-bottom: 100px;
-  border-bottom: none !important;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  width: 72% !important;
 }
 
 .notion-collection-row-body > :first-child {
