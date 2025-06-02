@@ -59,7 +59,8 @@
 .copyright {
   font-size: 80%;
   padding: 0.5em;
-  color: white;
+  color: rgb(174, 174, 174);
+  font-weight: 200;
 }
 
 /* .settings,
